@@ -127,15 +127,18 @@
                     <option value=""></option>
                 </select>
             </div>
-            <div>
-                <label>Laikas</label><br>
-                <input type="checkbox" id="dienomisCheckbox" name="dienomis">
-                <label for="dienomisCheckbox">Dienomis</label><br>
-                <input type="checkbox" id="vakaraisCheckbox" name="vakarais">
-                <label for="vakaraisCheckbox">Vakarais</label>
-            </div>
-            <br>
-            <input type="button" value="Išvalyti">
+            <fieldset>
+                <legend>Laikas</legend>
+                <div>
+                  <input type="checkbox" id="dienomis" name="dienomis" unchecked />
+                  <label for="dienomis">Dienomis</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="vakarais" name="vakarais" />
+                  <label for="vakarais">Vakarais</label>
+                </div>
+              </fieldset>
+            <input type="reset" value="Išvalyti">
         </form>
     </aside>
     <footer>
