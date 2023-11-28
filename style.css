@@ -1,0 +1,11 @@
+.headerUL {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.mainSectionParagraphs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
